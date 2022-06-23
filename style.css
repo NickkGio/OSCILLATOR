@@ -1,0 +1,81 @@
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  width: 0px;
+  height: 0px;
+  display: block;
+  color: rgb(160, 0, 200);
+}
+
+h1 {
+ 
+  margin-left: 10px;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(160, 0, 200);
+}
+
+button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 320px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(160, 0, 200);
+  font-size: 20px;
+  margin-left: 560px;
+  margin-top:20px
+  
+}
+
+button:hover {
+  color: rgba(0, 0, 0, 0.303);
+  border-color: rgba(0, 0, 0, 0.303);
+}
+
+.arrow {
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+a {
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
